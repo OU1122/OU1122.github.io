@@ -40,7 +40,7 @@ section {
   color: black;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid rgb(229, 45, 77);
+  border: 2px solid rgb(46, 94, 170);
   display: inline-block;
 }
 
@@ -52,7 +52,7 @@ section.profile {
   color: black;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid rgb(229, 45, 77);
+  border: 2px solid rgb(46, 94, 170);
   display: block;
 }
 
@@ -99,7 +99,9 @@ nav {
 
 nav a {
   color: white;
-  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-inline: 5px;
 }
 
 nav a:hover {
@@ -230,7 +232,17 @@ contact-icons img:hover {
   color: black;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid rgb(229, 45, 77);
+  border: 2px solid rgb(46, 94, 170);
   text-align: center;
   display: block;
+}
+
+.transparent-test {
+  color: transparent;
+  -webkit-text-stroke: 3px rgba(255, 255, 255, 0.959); /* Optional: subtle outline */
+  mix-blend-mode: screen; /* Makes it blend with background */
+}
+
+.transparent-test {
+  font-size: 100px;
 }
